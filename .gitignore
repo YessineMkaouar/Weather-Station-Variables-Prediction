@@ -1,0 +1,45 @@
+# Ignore virtual environment
+.venv/
+venv/
+
+# Byte-compiled / cached files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Logs and database files
+*.log
+*.sqlite3
+*.db
+
+# Ignore system files
+.DS_Store
+Thumbs.db
+
+# VS Code settings
+.vscode/
+
+# Python environment files
+Pipfile
+Pipfile.lock
+poetry.lock
+
+# Ignore test coverage reports
+.coverage
+*.cover
+coverage.xml
+htmlcov/
+
+# Ignore compiled files
+*.so
+*.o
+*.a
+*.out
+
+# Ignore build artifacts
+build/
+dist/
+*.egg-info/
